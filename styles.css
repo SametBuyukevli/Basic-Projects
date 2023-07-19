@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.password-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.checkbox-container label {
+    margin-right: 10px;
+}
+
+#generate-btn,
+#copy-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate-btn:hover,
+#copy-btn:hover {
+    background-color: #45a049;
+}
+
+.password-display-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+#password-display {
+    flex: 50;
+}
+
+.password-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#password-label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+
+#length-display {
+    margin-left: 10px;
+    font-weight: bold;
+}
